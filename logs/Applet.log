@@ -1,0 +1,4 @@
+16:17:47.887 [main] ERROR Sample_Test.Validate_submit_btn_exist - Error Message Displayed
+16:17:52.732 [main] INFO  Sample_Test.Validate_submit_btn_exist - URL retrived and navigated successfully
+16:17:52.953 [main] DEBUG Sample_Test.Validate_submit_btn_exist - Window Maximized Successfully 
+16:18:00.627 [main] INFO  Sample_Test.Validate_submit_btn_exist - Browser closed Successfully 

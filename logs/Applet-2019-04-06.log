@@ -1,0 +1,5 @@
+16:17:36.265 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - URL retrived and navigated successfully
+16:17:36.319 [main] DEBUG Sample_Test.DemoTest_to_validate_multipleUsers - Window Maximized Successfully 
+16:17:41.101 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - Home Link Clicked successfully 
+16:17:43.691 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - Login Suuccessful 
+16:17:47.887 [main] INFO  Sample_Test.Validate_submit_btn_exist - Driver is initialized

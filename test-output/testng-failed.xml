@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Sample_Test.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="VALIDATE CONTACT NUMBER(failed)">
+    <classes>
+      <class name="Sample_Test.Validate_contact_number">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="ValidateContactNumber"/>
+          <include name="LaunchTest"/>
+        </methods>
+      </class> <!-- Sample_Test.Validate_contact_number -->
+    </classes>
+  </test> <!-- VALIDATE CONTACT NUMBER(failed) -->
+  <test thread-count="5" name="VALIDATE TITLE ASSERTIONS(failed)">
+    <classes>
+      <class name="Sample_Test.DemoTest_to_assert_title">
+        <methods>
+          <include name="validateFeaturedCoursesText"/>
+          <include name="LaunchTest"/>
+          <include name="QuitBrowser"/>
+        </methods>
+      </class> <!-- Sample_Test.DemoTest_to_assert_title -->
+    </classes>
+  </test> <!-- VALIDATE TITLE ASSERTIONS(failed) -->
+  <test thread-count="5" name="VALIDATE LOGIN FOR MULTIPLE USERS(failed)">
+    <classes>
+      <class name="Sample_Test.DemoTest_to_validate_multipleUsers">
+        <methods>
+          <include name="LaunchTest"/>
+          <include name="QuitBrowser"/>
+          <include name="validateLoginforMultipleUsers"/>
+        </methods>
+      </class> <!-- Sample_Test.DemoTest_to_validate_multipleUsers -->
+    </classes>
+  </test> <!-- VALIDATE LOGIN FOR MULTIPLE USERS(failed) -->
+  <test thread-count="5" name="VALIDATE SUBMIT BUTTON CLICK (failed)">
+    <classes>
+      <class name="Sample_Test.Validate_submit_btn_exist">
+        <methods>
+          <include name="ValidateSubmitButton"/>
+          <include name="QuitBrowser"/>
+          <include name="LaunchTest"/>
+        </methods>
+      </class> <!-- Sample_Test.Validate_submit_btn_exist -->
+    </classes>
+  </test> <!-- VALIDATE SUBMIT BUTTON CLICK (failed) -->
+</suite> <!-- Failed suite [Suite] -->

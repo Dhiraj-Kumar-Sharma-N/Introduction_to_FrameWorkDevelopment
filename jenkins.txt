@@ -1,0 +1,5 @@
+java -jar jenkins.war(in war file directory through CMD)
+
+USER NAME = dhiraj 
+password: Iopjkl@!23
+8080

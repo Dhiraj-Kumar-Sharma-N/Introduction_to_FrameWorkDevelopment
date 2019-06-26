@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72368" started-at="2019-04-06T10:48:49Z" finished-at="2019-04-06T10:50:01Z">
+    <groups>
+    </groups>
+    <test name="VALIDATE CONTACT NUMBER" duration-ms="16423" started-at="2019-04-06T10:48:49Z" finished-at="2019-04-06T10:49:05Z">
+      <class name="Sample_Test.Validate_contact_number">
+        <test-method status="PASS" signature="LaunchTest()[pri:0, instance:Sample_Test.Validate_contact_number@5db45159]" name="LaunchTest" is-config="true" duration-ms="15021" started-at="2019-04-06T16:18:49Z" finished-at="2019-04-06T16:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTest -->
+        <test-method status="PASS" signature="ValidateContactNumber()[pri:0, instance:Sample_Test.Validate_contact_number@5db45159]" name="ValidateContactNumber" duration-ms="371" started-at="2019-04-06T16:19:04Z" finished-at="2019-04-06T16:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContactNumber -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:Sample_Test.Validate_contact_number@5db45159]" name="QuitBrowser" is-config="true" duration-ms="1001" started-at="2019-04-06T16:19:04Z" finished-at="2019-04-06T16:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- Sample_Test.Validate_contact_number -->
+    </test> <!-- VALIDATE CONTACT NUMBER -->
+    <test name="VALIDATE TITLE ASSERTIONS" duration-ms="9611" started-at="2019-04-06T10:49:05Z" finished-at="2019-04-06T10:49:15Z">
+      <class name="Sample_Test.DemoTest_to_assert_title">
+        <test-method status="PASS" signature="LaunchTest()[pri:0, instance:Sample_Test.DemoTest_to_assert_title@1df82230]" name="LaunchTest" is-config="true" duration-ms="8475" started-at="2019-04-06T16:19:05Z" finished-at="2019-04-06T16:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTest -->
+        <test-method status="PASS" signature="validateFeaturedCoursesText()[pri:0, instance:Sample_Test.DemoTest_to_assert_title@1df82230]" name="validateFeaturedCoursesText" duration-ms="176" started-at="2019-04-06T16:19:14Z" finished-at="2019-04-06T16:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeaturedCoursesText -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:Sample_Test.DemoTest_to_assert_title@1df82230]" name="QuitBrowser" is-config="true" duration-ms="959" started-at="2019-04-06T16:19:14Z" finished-at="2019-04-06T16:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- Sample_Test.DemoTest_to_assert_title -->
+    </test> <!-- VALIDATE TITLE ASSERTIONS -->
+    <test name="VALIDATE LOGIN FOR MULTIPLE USERS" duration-ms="36590" started-at="2019-04-06T10:49:15Z" finished-at="2019-04-06T10:49:52Z">
+      <class name="Sample_Test.DemoTest_to_validate_multipleUsers">
+        <test-method status="PASS" signature="LaunchTest()[pri:0, instance:Sample_Test.DemoTest_to_validate_multipleUsers@70be0a2b]" name="LaunchTest" is-config="true" duration-ms="3149" started-at="2019-04-06T16:19:15Z" finished-at="2019-04-06T16:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTest -->
+        <test-method status="PASS" signature="validateLoginforMultipleUsers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample_Test.DemoTest_to_validate_multipleUsers@70be0a2b]" name="validateLoginforMultipleUsers" duration-ms="21458" started-at="2019-04-06T16:19:18Z" data-provider="GetData" finished-at="2019-04-06T16:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhirajkumar643@yahoo.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9535802575]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid User Logged In]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginforMultipleUsers -->
+        <test-method status="PASS" signature="validateLoginforMultipleUsers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample_Test.DemoTest_to_validate_multipleUsers@70be0a2b]" name="validateLoginforMultipleUsers" duration-ms="10924" started-at="2019-04-06T16:19:40Z" data-provider="GetData" finished-at="2019-04-06T16:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ShivamDubey@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InValid User Logged In]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginforMultipleUsers -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:Sample_Test.DemoTest_to_validate_multipleUsers@70be0a2b]" name="QuitBrowser" is-config="true" duration-ms="1053" started-at="2019-04-06T16:19:50Z" finished-at="2019-04-06T16:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- Sample_Test.DemoTest_to_validate_multipleUsers -->
+    </test> <!-- VALIDATE LOGIN FOR MULTIPLE USERS -->
+    <test name="VALIDATE SUBMIT BUTTON CLICK " duration-ms="9656" started-at="2019-04-06T10:49:52Z" finished-at="2019-04-06T10:50:01Z">
+      <class name="Sample_Test.Validate_submit_btn_exist">
+        <test-method status="PASS" signature="LaunchTest()[pri:0, instance:Sample_Test.Validate_submit_btn_exist@1d082e88]" name="LaunchTest" is-config="true" duration-ms="8238" started-at="2019-04-06T16:19:52Z" finished-at="2019-04-06T16:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTest -->
+        <test-method status="PASS" signature="ValidateSubmitButton()[pri:0, instance:Sample_Test.Validate_submit_btn_exist@1d082e88]" name="ValidateSubmitButton" duration-ms="369" started-at="2019-04-06T16:20:00Z" finished-at="2019-04-06T16:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSubmitButton -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:Sample_Test.Validate_submit_btn_exist@1d082e88]" name="QuitBrowser" is-config="true" duration-ms="1048" started-at="2019-04-06T16:20:00Z" finished-at="2019-04-06T16:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- Sample_Test.Validate_submit_btn_exist -->
+    </test> <!-- VALIDATE SUBMIT BUTTON CLICK  -->
+  </suite> <!-- Suite -->
+</testng-results>

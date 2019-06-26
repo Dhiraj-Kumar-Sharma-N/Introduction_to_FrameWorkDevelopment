@@ -1,0 +1,4 @@
+Pages\QAHomePage.class
+Pages\QALoginPage.class
+resources\BaseClass.class
+resources\ExtentReporterNG.class

@@ -1,0 +1,5 @@
+09:36:23.283 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - URL retrived and navigated successfully
+09:36:23.771 [main] DEBUG Sample_Test.DemoTest_to_validate_multipleUsers - Window Maximized Successfully 
+09:36:40.560 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - Home Link Clicked successfully 
+09:36:55.586 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - Login Suuccessful 
+09:36:58.941 [main] INFO  Sample_Test.DemoTest_to_validate_multipleUsers - URL retrived and navigated successfully
